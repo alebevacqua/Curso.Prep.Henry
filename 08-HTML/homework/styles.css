@@ -1,0 +1,23 @@
+    body{
+        background=   "C:\Users\Miguel\Desktop\fotos\oso.jpg";
+        height: 100vh;
+        place-items: left;
+        display: flex;
+        justify-content: center;
+        flex-direction: colum
+    }
+  H1 {
+        color: blue;}
+        
+    img {width: 150px}
+                
+    #ThirDiv {
+             font-size: 40px;
+             height: 10px;
+             width: 400px;
+             background-color: blue   ;
+             padding: 50px;
+             border: 20px; padding: 10mm;}
+    #spanId {
+            font-size: 10px;
+            margin: 50px;}

@@ -1,7 +1,4 @@
-<p align='left'>
-    <img  src='../logo.png' height='70px'>
-</p>
-# Lección 8: Fundamentos HTML/CSS
+# Lección 2: Fundamentos HTML/CSS
 
 En esta clase veremos:
 
@@ -12,8 +9,6 @@ En esta clase veremos:
 * Estilos Básicos.
 * Modelo de Caja.
 * Hojas de estilos externas y el tag \<link\>.
-
-<iframe src="https://player.vimeo.com/video/424845809" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Introducción HTML
 

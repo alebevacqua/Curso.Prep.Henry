@@ -1,7 +1,4 @@
-<p align='left'>
-    <img  src='../logo.png' height='70px'>
-</p>
-# Lección 9: CSS Intermedio
+# Lección 3: CSS Intermedio
 
 En esta lección cubriremos:
 
@@ -10,8 +7,6 @@ En esta lección cubriremos:
 * Propiedad "position".
 * Usar "position" para posicionar elementos.
 * Introducción a Flexbox.
-
-<iframe src="https://player.vimeo.com/video/425169846" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Introducción al posicionamiento
 
@@ -153,8 +148,6 @@ Esta propiedad puede cambiar cómo el navegador interpreta `justify-content` (JC
 ### "align-self"
 
 Por último, cubriremos una propiedad más avanzada llamada "align-self". La misma será aplicada a un elemento dentro del "flex box" del cual queremos separar el control de `align-items`. Si le damos la propiedad `align-self`, podemos colocarla en cualquier lugar a lo largo del eje de elementos de alineación que queramos. (Nota: NO existe `justify-self`, esta es la razón principal por la que los desarrolladores cambiarán la dirección de "flex").
-
-### Abre una nueva ventana en el navegador y completa "homework.html"
 
 ## Recursos adicionales
 

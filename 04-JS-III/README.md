@@ -1,14 +1,9 @@
-<p align='left'>
-    <img  src='../logo.png' height='70px'>
-</p>
-# Lección 4: Javascript III (continuación de bucles `for` y Arrays)
+# Lección 6: Javascript III (continuación de bucles `for` y Arrays)
 
 En esta lección cubriremos:
 
 * Introducción a los arrays
-* Bucles `for` con arrays
-
-<iframe src="https://player.vimeo.com/video/424916422" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+* Buscles `for` con arrays
 
 ## Introducción a los arrays (matrices/arreglos)
 
@@ -106,9 +101,9 @@ console.log(nombresEstudiantes);  // ['Martin', 'Antonio', 'Sara', 'Samuel']
 
 ### Notas sobre las matrices
 
-Debido a que Javascript no es un lenguaje fuertemente tipado, las matrices tampoco necesitan ser tipadas. Las matrices en Javascript pueden contener múltiples tipos de datos diferentes en la misma matriz
+Debido a que Javascript no es un lenguaje fuertemente tipado, las matrices tampoco necesitan ser tipadas. Las matrices en Javascript pueden contener múltiples tipos de datos diferentes en la misma matriz.
 
-## Utilizando bucles `for` en arrays
+## Bucles `for`
 
 La mayoría de las veces, los bucles for se utilizan para iterar sobre todos los elementos de una matriz. Usando la técnica de acceso al índice ("index access technique") podemos acceder a cada elemento de la matriz. Para hacer esto, usamos el método `.length` como punto de parada para el ciclo.
 
@@ -125,8 +120,25 @@ for (let i = 0; i < nombresEstudiantes.length; i++) {
 // 'Samuel'
 ```
 
+## Objetos de argumento
+
+Cuando pasamos argumentos a una función, están contenidos en una estructura de datos tipo matriz llamada 'argumentos'. `arguments` está disponible para nosotros en cualquier lugar dentro de la función y contiene todos los argumentos que se le pasan. Si bien es como una matriz, no tiene todas las propiedades de una matriz. Una propiedad que tiene es el método `.length`. Cuando se nos da una función con un número desconocido de argumentos, podemos usar `.length` y un bucle` for` para iterar sobre todos los argumentos:
+
+```javascript
+function sumarTodosLosNumeros() {
+    let sum = 0;
+
+    for (let i = 0; i < arguments.length; i++) {
+        sum = sum + arguments[i];
+    }
+
+    return sum;
+}
+
+sumarTodosLosNumeros(2, 5, 3, 4, 7, 9, 1, 0, 7, 7, 7);  // 52
+```
+
 ## Abre la carpeta "homework" y completa la tarea descrita en el archivo README
-[Homework](https://github.com/atralice/Curso.Prep.Henry/tree/master/04-JS-III/homework)
 
 ## Recursos adicionales
 

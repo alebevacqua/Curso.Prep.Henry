@@ -1,0 +1,4 @@
+for: es un bluce, o ciclo. el cual determinamos en su nacimiento cuantas veces se ejecutará.
+&&: signo que reemplaza o equivale al AND o Y,
+||:signo que reemplaza o equivale al OR o O
+!: signo de negacion , invierte el resultado obtenido.

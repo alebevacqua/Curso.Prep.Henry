@@ -1,7 +1,8 @@
 # Homework: Git
 
-### Pre-requisitos
+## Conocimientos previos necesarios
 
+### Pre-requisitos
 * Crear una cuenta en [Github.com](https://www.github.com/).
 * Si usas una computadora con Windows, puedes instalar la terminal de comandos _git-bash_ haciendo click [acá](https://git-for-windows.github.io/).
 * Si usas Mac, `git` viene pre-instalado y puedes acceder desde la terminal pulsando ⌘+Espacio y escribiendo "terminal". Puedes asegurarte de que git está instalado escribiendo `which git` en la terminal y pulsando Enter, si aparece la ruta de un archivo está todo correcto. En algunas ocasiones, podrías ser redireccionado a la descarga de la línea de comandos de Xcode, sigue las instrucciones.
@@ -11,7 +12,7 @@
 
 ### Comandos básicos de terminal
 
-> Usaremos la "terminal" o "línea de comandos" durante tu tiempo en Henry. Si estás en una computadora con Mac o Linux, deberías tener la terminal y git ya instalados. Si estás en una máquina con Windows, te recomendamos instalar ["git-bash"](https://git-for-windows.github.io/).
+> Usaremos la "terminal" o "línea de comandos" durante tu tiempo en Henry. Si estás en una computadora con Mac o Linux, deberías tener la terminal y git ya instalados. Si estás en una máquina con Linux, te recomendamos instalar ["git-bash"](https://git-for-windows.github.io/).
 
 Dentro de nuestra terminal podemos: revisar nuestra estructura de archivos, añadir, eliminar y modificar archivos, y muchas cosas más. La terminal es una herramienta muy poderosa para los desarrolladores y vas a usarla mucho en tu carrera profesional. Al principio puede parecer aterrador, pero con el tiempo terminarás disfrutando su uso, así que es mejor acostumbrarse ahora. Para comenzar, aprenderemos los comandos "básicos":
 
@@ -70,7 +71,7 @@ Entra a github.com y logueate con tu usuario. Luego en la parte de arriba a la d
 
 En la nueva pantalla, vas a tener que seleccionar el nombre de tu nuevo repo. Crea un repo que se llame: `henry`. Podes agregarle una descripción también, pero no es obligatoria.
 
-![alt](../img/create-repository-name.png)
+![alt](../../img/create-repository-name.png)
 
 Luego elegí la visibilidad del proyecto como público (para tener repos privados tenes que pagar el premium de github).
 
@@ -80,7 +81,7 @@ Listo ya tenes tu propio repo. Ahora vas a poder clonarlo con las intrucciones d
 
 ### Clonar
 
-Para poder trabajar en un proyecto debes clonarlo (descargarlo) a tu máquina local. Para ello, accede al repositorio que creaste en tu cuenta, y haz click en el botón de la esquina superior derecha que dice "Clonar o descargar". Un dropdown aparecerá y podemos clickear en el icono del clipboard para copiar la dirección del repo. O, si el repo esta vacio vas a ver en el medio de la pantalla la URL con la dirección de tu repositorio.
+Para poder trabajar en un proyecto debes clonarlo (descargarlo) a tu máquina local. Para ello, accede al repositorio que creaste en tu cuenta, y haz click en el botón verde de la esquina superior derecha que dice "Clonar o descargar". Un dropdown aparecerá y podemos clickear en el icono del clipboard para copiar la dirección del repo. (Nota: Puedes descargar el repositorio completo, pero no se recomienda tanto como clonarlo dado que este último realizará unos pasos extra que harán tu vida mucho más fácil -> si lo descargas en vez de clonar, vas a tener que inicializar el repo vos mismo, no se preocupen por esto ahora).
 
 Una vez tengas la dirección copiada, vuelve a tu terminal y escribe lo siguiente:
 
@@ -166,3 +167,12 @@ La terminal te preguntará tu usuario y contraseña (En el caso de la contraseñ
 ```
 
 ¡Felicitaciones, acabas de subir tu primer git commit!
+
+
+## Lectura recomendada y tutoriales:
+
+* [Git: sitio oficial](https://git-scm.com/)
+* [Github: tutorial oficial](https://try.github.io/levels/1/challenges/1)
+* [Codecademy: Learn Git](https://www.codecademy.com/learn/learn-git)
+* [Git: tutorial oficial](https://git-scm.com/docs/gittutorial)
+* [Terminal turorial](https://www.davidbaumgold.com/tutorials/command-line/)

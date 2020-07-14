@@ -7,32 +7,57 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    display: block;
+    text-align: center;
 }
-
-
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
-
-
+#ejercicioDos{
+    visibility: hidden;
+}
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
-
-
+#ejercicioTres{
+    position: absolute;
+    top: 100;
+    left: 200;
+}
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
-
-
+#ejercicioCuatro{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+/* el Z es la relacion eje Z, da profundidad, a maas grnde el nro mas cerca nuestro mas sale de la pantalla */
+}
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
+#ejercicioCinco{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+   
 
-
+}
 
 /* Ejercicio 6. */
+#ejercicioSeis {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+}
+/* Ejercicio 7 */
+#EjercicioSiete {
+    display: flex;
+    align-items: center;
+}
